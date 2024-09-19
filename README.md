@@ -105,3 +105,15 @@ Less obvious:
 - Certain LLMs reason about obscure topics better
 - May invoke guardrails unexpectedly
 - May remove guardrails unexpectedly
+
+Sorry for not providing any more solid evidence or the benchmarks. Hopefully, I'll find a way to do that.
+
+### Examples
+
+#### [Open WebUI](./examples/klmbr-webui.py)
+
+![alt text](./assets/klmbr-webui.png)
+
+A sample [Function](https://docs.openwebui.com/tutorial/functions#what-are-functions) with `klmbr` technique, and input/output filtering. Will add `klmbr` versions of all available Ollama models. 
+
+As for now, you can only tweak retokenization params via code.
