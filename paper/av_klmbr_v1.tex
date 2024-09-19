@@ -1,0 +1,63 @@
+
+\documentclass[root]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{pbalance}
+\usepackage{listings}
+\usepackage[dvips]{graphicx}
+\usepackage{algorithm}
+\usepackage[OT4,T1]{fontenc}
+\usepackage[cmex10]{amsmath}
+\interdisplaylinepenalty=2500
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage[sort,numbers]{natbib}
+\usepackage[dvips]{graphicx}
+\usepackage{algorithmic} 
+\usepackage{verbatim}
+
+\title{klmbr}
+
+\author{
+\IEEEauthorblockN{Ivan Charapanau}
+\IEEEauthorblockA{0009-0000-5894-0087 \\ Independent Researcher\\
+Warsaw\\
+Email: av@av.codes}
+}
+\begin{document}
+ 
+\maketitle      
+\begin{abstract}  
+Tokenization is an essential part of LLM training and inference.
+It has implicit impact on the model's performance and generalization capabilities, as the model learns from the tokenized data. 
+At the same time, many reinforcement learning techniques are often including randomization of the inputs to improve the model's robustness.
+We show that there is evidence of this approach being a common practice in many LLM training routines, we speculate that this also includes the closed-source models. 
+
+We introduce a library that can be used to induce different tokenization schemes to the input data for arbitrary LLMs.
+We demonstrate that it can improve the model's performance and generalization capabilities.
+\end{abstract}
+
+\section{Introduction}
+\begin{itemize}
+    \item Tokenization is an essential part of LLM training and inference.
+    \item Overview of tokenization techniques.
+    \item Tokenization has implicit impact on the model's performance and generalization capabilities, as the model learns from the tokenized data.
+    \item Experiment: model outputs for the same input, but with different tokenization schemes.
+    \item Question: How much does the tokenization scheme affect the model's performance and generalization capabilities?
+\end{itemize}
+
+\section{Retokenization}
+\begin{itemize}
+    \item Retokenization is a simple pre-processing technique to work around the embedded biases in the input data.
+    \item Inducing Retokenization for arbitrary LLMs.
+    \item Overview of the technique.
+\end{itemize}
+
+\section{Conclusions}
+
+\begin{itemize}
+    \item We introduce a library that can be used to induce different tokenization schemes to the input data for arbitrary LLMs.
+    \item We demonstrate that it has an impact on the model's performance and generalization capabilities.
+\end{itemize}
+
+\end{document}
