@@ -117,3 +117,7 @@ Sorry for not providing any more solid evidence or the benchmarks. Hopefully, I'
 A sample [Function](https://docs.openwebui.com/tutorial/functions#what-are-functions) with `klmbr` technique, and input/output filtering. Will add `klmbr` versions of all available Ollama models. 
 
 As for now, you can only tweak retokenization params via code.
+
+#### [Python](./klmbr/main.py)
+
+The technique is very easy to implement, so you likely won't need any library to do so. However, the repo still contains a sample implementation that also tracks the adjusted symbols (to mask retokenized LLM outputs, for example) and implements basic support for the punctuation. 
