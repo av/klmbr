@@ -10,3 +10,11 @@ https://github.com/user-attachments/assets/5141c554-38aa-4615-a9e5-7be9fe53c81b
 
 ### Technique overview
 
+Let's assume that the LLM was trained on this sentence:
+
+```text
+The sky is blue
+```
+
+
+
