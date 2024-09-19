@@ -19,4 +19,4 @@ The sky is blue
 We can almost safely assume that these inputs were tokenized on a word-by-word basis:
 
 ![screenshot of the "The sky is blue" tokenization](./assets/sky-tokens.png)
-
+*screenshot courtesy of https://tokenvisualizer.netlify.app/*
