@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this technique, please cite it as below."
+authors:
+- family-names: "Charapanau"
+  given-names: "Ivan"
+  orcid: "https://orcid.org/0009-0000-5894-0087"
+title: "klmbr"
+version: 0.1.0
+date-released: 2024-09-19
+url: "https://github.com/av/klmbr"
