@@ -4,6 +4,3 @@ klmbr - a prompt pre-processing technique to induce retokenization of the input 
 
 ---
 
-![Demo](demos/klmbr-webui-l3.1:8b.mp4)
-
----
