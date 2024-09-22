@@ -124,3 +124,12 @@ As for now, you can only tweak retokenization params via code.
 #### [Python](./klmbr/main.py)
 
 The technique is very easy to implement, so you likely won't need any library to do so. However, the repo still contains a sample implementation that also tracks the adjusted symbols (to mask retokenized LLM outputs, for example) and implements basic support for the punctuation.
+
+#### [Harbor Boost](https://github.com/av/harbor/wiki/5.2.-Harbor-Boost#klmbr---boost-llm-creativity)
+
+`klmbr` is implemented as one of the modules in Harbor's [Boost service](https://github.com/av/harbor/wiki/5.2.-Harbor-Boost)
+
+```bash
+harbor boost modules add klmbr
+harbor up boost
+```
