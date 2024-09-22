@@ -50,7 +50,7 @@ Sure enough.
 
 ![Example asnwer from a few small LLMs: Mistral Small, Llama 3.1 8B, Gemma 2B](./assets/riddle-small-llms.png)
 
-> [!INFO]
+> [!TIP]
 > You can find a whole collection of such "overfit" inputs in the awesome [MisguidedAttention](https://github.com/cpldcpu/MisguidedAttention) repo
 
 ### Induced retokenization
