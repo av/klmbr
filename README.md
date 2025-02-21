@@ -82,7 +82,7 @@ But when we reach the bottom, the "soup" is surely nothing like the model could'
 
 ![tokenization of inpronouncible last level](./assets/c4ndl3.png)
 
-How much of this still triggers same patters when multiplying QKV with embeddings?
+How much of this still triggers same patterns when multiplying QKV with embeddings?
 
 
 ### Technique overview
